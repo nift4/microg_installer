@@ -47,5 +47,7 @@
         <permission name="android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME" />
         <permission name="android.permission.UPDATE_DEVICE_STATS" />
         <permission name="android.permission.WRITE_SECURE_SETTINGS" />
+        <permission name="android.permission.MANAGE_ROLLBACKS" />
+        <permission name="android.permission.LOADER_USAGE_STATS" />
     </privapp-permissions>
 </permissions>
