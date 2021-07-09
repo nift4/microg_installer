@@ -14,7 +14,7 @@ DroidGuard Helper needs to be installed as a system app in order to pass SafetyN
 
 GsfProxy needs to be an system app for some third-party apps.
 
-Currently, GmsCore 0.2.19, GsfProxy 0.1.0, FakeStore 0.1.0 and DroidGuard Helper 0.1.0-10 are bundled in the module.
+Currently, GmsCore 0.2.21, GsfProxy 0.1.0, FakeStore 0.1.0 and DroidGuard Helper 0.1.0-10 are bundled in the module.
 
 **Note**: Install this module before installing any GMS-dependent apps, as well as do not disable it after installing such apps, unless you know what you're doing.
 
