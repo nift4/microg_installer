@@ -34,13 +34,13 @@
         <permission name="android.permission.INTERACT_ACROSS_USERS" />
         <permission name="android.permission.MANAGE_USERS" />
         <permission name="android.permission.PACKAGE_USAGE_STATS" />
-        <permission name="android.permission.PACKAGE_VERIFICATION_AGENT" />
-        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+        <deny-permission name="android.permission.PACKAGE_VERIFICATION_AGENT" />
+        <deny-permission name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
         <permission name="android.permission.READ_RUNTIME_PROFILES" />
         <permission name="android.permission.REAL_GET_TASKS" />
         <permission name="android.permission.REBOOT" />
         <permission name="android.permission.SEND_DEVICE_CUSTOMIZATION_READY" />
-        <permission name="android.permission.SEND_SMS_NO_CONFIRMATION" />
+        <deny-permission name="android.permission.SEND_SMS_NO_CONFIRMATION" />
         <permission name="android.permission.SET_PREFERRED_APPLICATIONS" />
         <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND" />
         <permission name="android.permission.STATUS_BAR" />
