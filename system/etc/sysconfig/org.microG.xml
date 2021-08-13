@@ -19,22 +19,17 @@
     <allow-in-power-save package="com.google.android.gms" />
     <allow-in-data-usage-save package="com.google.android.gms" />
     <allow-unthrottled-location package="com.google.android.gms" />
-    <allow-ignore-location-settings package="com.google.android.gms" />
-    <allow-in-power-save-except-idle package="com.google.android.apps.work.oobconfig" />
-    <allow-in-data-usage-save package="com.google.android.apps.work.oobconfig" />
     <allow-in-power-save-except-idle package="com.google.android.apps.turbo" />
     <allow-implicit-broadcast action="com.google.android.checkin.CHECKIN_COMPLETE" />
     <allow-implicit-broadcast action="com.google.gservices.intent.action.GSERVICES_CHANGED" />
     <allow-implicit-broadcast action="com.google.gservices.intent.action.GSERVICES_OVERRIDE" />
     <allow-implicit-broadcast action="com.google.android.c2dm.intent.RECEIVE" />
-    <allow-in-power-save-except-idle package="com.android.vending" />
     <allow-in-power-save package="com.google.android.volta" />
     <allow-in-power-save package="com.google.android.ims" />
     <allow-in-data-usage-save package="com.google.android.ims" />
     <app-link package="com.android.vending" />
     <system-user-whitelisted-app package="com.android.vending" />
     <system-user-whitelisted-app package="com.google.android.gms" />
-    <system-user-whitelisted-app package="com.google.android.gms.policy_auth" />
     <system-user-blacklisted-app package="com.google.android.googlequicksearchbox" />
     <allow-association target="com.google.android.as" allowed="com.android.systemui" />
     <allow-association target="com.google.android.as" allowed="com.google.android.gms" />
