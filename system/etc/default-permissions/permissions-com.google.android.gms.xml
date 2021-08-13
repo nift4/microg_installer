@@ -13,7 +13,7 @@
     <exception package="com.google.android.gms">
         <!-- Phone -->
         <permission name="android.permission.READ_PHONE_STATE" fixed="false"/>
-        <permission name="android.permission.RECEIVE_SMS" fixed="false" />
+        <permission name="android.permission.RECEIVE_SMS" fixed="false" whitelisted="true" />
         <!-- Account -->
         <permission name="android.permission.READ_CONTACTS" fixed="false"/>
         <permission name="android.permission.WRITE_CONTACTS" fixed="false"/>
@@ -21,7 +21,7 @@
         <!-- Location -->
         <permission name="android.permission.ACCESS_FINE_LOCATION" fixed="false"/>
         <permission name="android.permission.ACCESS_COARSE_LOCATION" fixed="false"/>
-        <permission name="org.microg.permission.FORCE_COARSE_LOCATION" fixed="false"/>
+        <permission name="android.permission.ACCESS_BACKGROUND_LOCATION" fixed="false" whitelisted="true" />
         <!-- Storage -->
         <permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="false"/>
         <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
