@@ -3,13 +3,8 @@
     <privapp-permissions package="com.google.android.gms">
         <permission name="android.permission.INSTALL_LOCATION_PROVIDER"/>
         <permission name="android.permission.CHANGE_DEVICE_IDLE_TEMP_WHITELIST"/>
-	<permission name="android.permission.FAKE_PACKAGE_SIGNATURE"/>
-	<permission name="android.permission.UPDATE_APP_OPS_STATS"/>
-    </privapp-permissions>
-    <privapp-permissions package="com.google.android.gsf">
-        <permission name="android.permission.FAKE_PACKAGE_SIGNATURE"/>
-    </privapp-permissions>
-    <privapp-permissions package="org.microg.gms.droidguard">
+	    <permission name="android.permission.FAKE_PACKAGE_SIGNATURE"/>
+	    <permission name="android.permission.UPDATE_APP_OPS_STATS"/>
     </privapp-permissions>
     <!-- For real Play Store; Fake Store will not use all except one (FAKE_PACKAGE_SIGNATURE) of them -->
     <privapp-permissions package="com.android.vending">
