@@ -4,4 +4,4 @@ version=Revived 2.4.0-0
 versionCode=24000
 author=nift4 (prev. maintainer: Hieu Van)
 description=Install microG GmsCore, GsfProxy & FakeStore (or Play Store if you want so) to /system/priv-app and MapsV1 to /system/framework
-updateJson=https://raw.githubusercontent.com/soracqt/microg_installer_revived/master/update.json
+updateJson=https://raw.githubusercontent.com/nift4/microg_installer_revived/master/update.json

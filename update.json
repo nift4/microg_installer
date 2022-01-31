@@ -1,6 +1,5 @@
 {
 	"version": "Revived 2.4.0-0",
 	"versionCode": 24000,
-	"zipUrl": "https://github.com/nift4/microg_installer_revived/releases/latest/download/microG_Installer_Revived.zip",
-        "changelog": "https://github.com/soracqt/microg_installer_revived/README.md"
+	"zipUrl": "https://github.com/nift4/microg_installer_revived/releases/latest/download/microG_Installer_Revived.zip"
 }
