@@ -24,7 +24,6 @@ if $BOOTMODE; then
     fi
 
 else
-    ui_print "- ERROR: Installation via recovery is NOT supported."
-    exit 1
+    abort "- ERROR: Installation via recovery is NOT supported."
 fi
 
