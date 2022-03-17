@@ -31,8 +31,14 @@
     <system-user-whitelisted-app package="com.android.vending" />
     <system-user-whitelisted-app package="com.google.android.gms" />
     <system-user-blacklisted-app package="com.google.android.googlequicksearchbox" />
-    <allow-association target="com.google.android.as" allowed="com.android.systemui" />
-    <allow-association target="com.google.android.as" allowed="com.google.android.gms" />
-    <allow-association target="com.google.android.as" allowed="com.google.android.gsf" />
+
+    <!-- microG UnifiedNlp backends -->
+    <allow-unthrottled-location package="org.microg.nlp.backend.apple" />
+    <allow-unthrottled-location package="org.microg.nlp.backend.ichnaea" />
+    <allow-unthrottled-location package="org.microg.nlp.backend.nominatim" />
+    <allow-unthrottled-location package="org.radiocells.unifiedNlp" />
+    <allow-unthrottled-location package="org.fitchfamily.android.wifi_backend" />
+    <allow-unthrottled-location package="org.fitchfamily.android.gsmlocation" />
+    <allow-unthrottled-location package="org.fitchfamily.android.dejavu" />
 </config>
 
