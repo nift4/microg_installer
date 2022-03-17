@@ -6,6 +6,7 @@ install_phonesky()
 
 if $BOOTMODE; then
 
+    ui_print "- Installing microG GmsCore"
     pm install --dont-kill -g "$MODPATH/system/priv-app/GmsCore/GmsCore.apk"
     pm install --dont-kill "$MODPATH/SigSpoofHelper.apk" 2>/dev/null
     rm -f "$MODPATH/SigSpoofHelper.apk"
