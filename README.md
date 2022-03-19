@@ -41,9 +41,6 @@ Requires wget.
 ### Other
 Download [this](https://raw.githubusercontent.com/topjohnwu/Magisk/master/scripts/module_installer.sh) and put it into `META-INF/com/google/android/update-binary`. And ZIP it.
 
-## SigSpoofHelper
-[Source code](https://github.com/nift4/SigSpoofHelper) is available here. The purpose is to declare the FAKE_PACKAGE_SIGNATURE on roms that do not have it.
-
 ## Credits
 
 - **microG project** for their awesome work.

@@ -8,8 +8,7 @@ if $BOOTMODE; then
 
     ui_print "- Installing microG GmsCore"
     pm install --dont-kill -g "$MODPATH/system/priv-app/GmsCore/GmsCore.apk"
-    pm install --dont-kill "$MODPATH/SigSpoofHelper.apk" 2>/dev/null
-    rm -f "$MODPATH/SigSpoofHelper.apk"
+
     if [ -f /data/adb/Phonesky.apk ]; then
         cp /data/adb/Phonesky.apk "$MODPATH/system/priv-app/Phonesky/Phonesky.apk"
         # If the real Play Store is already installed, don't install it again since
