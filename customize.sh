@@ -1,7 +1,7 @@
 install_phonesky()
 {
     pm install --dont-kill "$MODPATH/system/priv-app/Phonesky/Phonesky.apk"
-    pm grant com.android.vending android.permission.FAKE_PACKAGE_SIGNATURE
+    pm grant com.android.vending android.permission.FAKE_PACKAGE_SIGNATURE 2>/dev/null
 }
 
 if $BOOTMODE; then
