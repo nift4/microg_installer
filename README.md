@@ -1,4 +1,5 @@
 ## This project is in reduced maintenance / no support mode and I will only release updates for my personal usage from now on. There are too many issues with KernelSU, stock ROMs and everything too far from my personal usecase, and I'd rather use my free time with other projects, so I am not really able (or motivated) to support most cases anymore. If you can, use recovery-based installers, those will always be more reliable and universal.
+## For better KernelSU support and an alternative that works (mainly Android 14 AOSP ROMs), check out [MinMicroG - Official Repo](https://github.com/FriendlyNeighborhoodShane/MinMicroG) and [MinMicroG - a Fork with a compatibility patch](https://github.com/HPsaucii/MinMicroG/tree/NikFixes) (works out of the box this way).
 
 # microG Installer Revived
 
