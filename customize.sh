@@ -90,7 +90,7 @@ if ! [ -d "/my_bigball/priv-app/GmsCore" ]; then
   mkdir -p "$MODPATH/system/product/priv-app/Phonesky"
   cp "$VD_PATH" "$MODPATH/system/product/priv-app/Phonesky/Phonesky.apk"
 else
-  mkdir -p "$MODPATH/system/product/priv-app/Phonesky"
+  mkdir -p "$MODPATH/system/priv-app/Phonesky"
   cp "$VD_PATH" "$MODPATH/system/priv-app/Phonesky/Phonesky.apk"
 fi
 mmm_exec hideLoading
