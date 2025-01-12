@@ -11,8 +11,8 @@ if ! $BOOTMODE; then
 fi
 mmm_exec setSupportLink "https://github.com/nift4/microg_installer_revived/issues"
 
-MAX_VER="240913008"
-MAX_VERN="0.3.4.240913"
+MAX_VER="244735012"
+MAX_VERN="0.3.6.244735"
 
 if [ -f /data/adb/Phonesky.apk ]; then
     ui_print "- INFO: Phonesky.apk is found in /data/adb, but this module no longer uses this file."
